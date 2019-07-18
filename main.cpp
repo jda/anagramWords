@@ -65,7 +65,6 @@ int main(int argc, char* argv[]) {
     }
     infile.close();
 
-
     // end init, start algo to return groups of anagram words
     std::unordered_set <std::string> handledWords;
     for (auto word : words) {
