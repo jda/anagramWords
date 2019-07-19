@@ -16,7 +16,7 @@ bool isAnagram(const std::string &word1, const std::string &word2) {
     for (char const c1 : word1) {
         // now look for c1 in c2
         bool foundChar = false;
-		for (char const c2 : word2) {
+        for (char const c2 : word2) {
             if (c1 == c2) {
                 foundChar = true;
             }
@@ -25,7 +25,7 @@ bool isAnagram(const std::string &word1, const std::string &word2) {
         if (foundChar == false) {
             return false;
         }
-	}
+    }
 
     return true;
 }
